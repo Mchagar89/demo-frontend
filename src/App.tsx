@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://a4ff330804fb34c4d8789d828b7cf732-1838654640.us-east-1.elb.amazonaws.com';
+const API_URL = process.env.REACT_APP_API_URL || '';
 
 function App() {
   const [response, setResponse] = useState<string>('');
